@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="274dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="식당관리"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#4CAF50"
+        android:backgroundTint="#4CAF50"
+        android:text="삭제"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="407dp"
+        android:layout_height="598dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="No."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="Name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:text="Value"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="525dp" />
+
+        <!--            <CheckBox-->
+        <!--                android:id="@+id/checkBox2"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="      1                            비건식당1           " />-->
+
+        <!--            <CheckBox-->
+        <!--                android:id="@+id/checkBox3"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="      2                            비건식당2           " />-->
+
+        <!--            <CheckBox-->
+        <!--                android:id="@+id/checkBox4"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="      3                            비건식당3           " />-->
+
+        <!--            <CheckBox-->
+        <!--                android:id="@+id/checkBox5"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="      4                            비건식당4           " />-->
+
+        <!--            <CheckBox-->
+        <!--                android:id="@+id/checkBox8"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="      7                            비건식당7           " />-->
+
+        <!--            <CheckBox-->
+        <!--                android:id="@+id/checkBox7"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="      6                            비건식당6           " />-->
+
+        <!--            <CheckBox-->
+        <!--                android:id="@+id/checkBox6"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="      5                            비건식당5           " />-->
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
