@@ -561,7 +561,7 @@ public class MainActivity extends AppCompatActivity
 
         new NRPlaces.Builder()
                 .listener(MainActivity.this)
-                .key("AIzaSyDdhZNxhHZG2FsE3z7UaiFTA-jlmvEOpZU")
+                .key("키")
                 .latlng(37.56, 126.97)//현재 위치
                 .radius(500) //500 미터 내에서 검색
                 .type(PlaceType.RESTAURANT) //음식점
